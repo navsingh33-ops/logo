@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindMeAgent Logo Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #1A5C33;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .logo-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .logo-card:hover {
+            transform: translateY(-5px);
+        }
+        .logo-card h3 {
+            color: #2D8B4E;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        .logo-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .logo-card.dark-bg {
+            background: #1a1a2e;
+        }
+        .logo-card.dark-bg h3 {
+            color: #4CAF50;
+        }
+        .size-info {
+            margin-top: 15px;
+            padding: 10px;
+            background: #f0f7f2;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .specs {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+        .specs h2 {
+            color: #1A5C33;
+            margin-bottom: 20px;
+        }
+        .specs ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .specs li {
+            padding: 15px;
+            background: #f0f7f2;
+            border-radius: 8px;
+            border-left: 4px solid #2D8B4E;
+        }
+        .specs li strong {
+            color: #1A5C33;
+        }
+        .download-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #2D8B4E 0%, #1A5C33 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(45, 139, 78, 0.3);
+        }
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(45, 139, 78, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏠 FindMeAgent Logo</h1>
+        <p class="subtitle">Professional logo for Google Ads - Real Estate Agent Finder</p>
+        
+        <div class="logo-grid">
+            <div class="logo-card">
+                <h3>Square Logo (500x500px)</h3>
+                <img src="findmeagent-logo-square.svg" alt="FindMeAgent Square Logo">
+                <div class="size-info">
+                    <strong>Recommended for:</strong> Google Ads, Social Media Profile
+                </div>
+            </div>
+            
+            <div class="logo-card dark-bg">
+                <h3>On Dark Background</h3>
+                <img src="findmeagent-logo-square.svg" alt="FindMeAgent Logo on Dark">
+                <div class="size-info" style="background: #2a2a4e; color: #ccc;">
+                    <strong>Preview:</strong> How it looks on dark surfaces
+                </div>
+            </div>
+        </div>
+        
+        <div class="specs">
+            <h2>📋 Logo Specifications</h2>
+            <ul>
+                <li><strong>Format:</strong> SVG (Scalable Vector Graphics)</li>
+                <li><strong>Dimensions:</strong> 500x500px (Square - 1:1 ratio)</li>
+                <li><strong>Primary Color:</strong> #2D8B4E (Forest Green)</li>
+                <li><strong>Secondary Color:</strong> #4CAF50 (Material Green)</li>
+                <li><strong>Accent Color:</strong> #1A5C33 (Dark Green)</li>
+                <li><strong>Style:</strong> Professional / Corporate</li>
+                <li><strong>Use Case:</strong> Google Ads, Social Media, Website</li>
+                <li><strong>Background:</strong> White (#FFFFFF)</li>
+            </ul>
+        </div>
+        
+        <div class="download-section">
+            <a href="findmeagent-logo-square.svg" download class="download-btn">
+                ⬇️ Download SVG Logo
+            </a>
+        </div>
+    </div>
+</body>
+</html>
