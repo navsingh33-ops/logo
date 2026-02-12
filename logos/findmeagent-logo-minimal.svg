@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Clean White Background -->
+  <rect width="500" height="500" fill="#FFFFFF"/>
+  
+  <!-- Simplified Icon - House + Search -->
+  <g transform="translate(175, 100)">
+    <!-- House outline -->
+    <path d="M75 30 L140 80 L140 150 L10 150 L10 80 Z" fill="none" stroke="#2D8B4E" stroke-width="8" stroke-linejoin="round"/>
+    <!-- Roof -->
+    <path d="M75 5 L155 72 L145 82 L75 25 L5 82 L-5 72 Z" fill="#2D8B4E"/>
+    <!-- Door -->
+    <rect x="55" y="100" width="40" height="50" fill="#2D8B4E" rx="4"/>
+    
+    <!-- Magnifying glass overlay -->
+    <circle cx="115" cy="45" r="22" fill="#FFFFFF" stroke="#4CAF50" stroke-width="6"/>
+    <line x1="130" y1="60" x2="150" y2="80" stroke="#4CAF50" stroke-width="6" stroke-linecap="round"/>
+    <!-- Checkmark inside -->
+    <path d="M105 45 L112 52 L128 36" fill="none" stroke="#2D8B4E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Brand Name -->
+  <text x="250" y="310" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="800" fill="#1A5C33" text-anchor="middle">FINDME</text>
+  <text x="250" y="370" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="800" fill="#4CAF50" text-anchor="middle">AGENT</text>
+  
+  <!-- Subtitle -->
+  <text x="250" y="420" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#777777" text-anchor="middle" letter-spacing="3">REAL ESTATE AGENT FINDER</text>
+  
+  <!-- Australia indicator -->
+  <text x="250" y="455" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#999999" text-anchor="middle">.com.au</text>
+</svg>
