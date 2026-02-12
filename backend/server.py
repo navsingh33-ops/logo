@@ -51,7 +51,7 @@ class Lead(BaseModel):
 
 class LeadCreate(BaseModel):
     name: str
-    email: str
+    email: str = Field(..., pattern=r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
     phone: str
     suburb: str
     message: Optional[str] = ""
