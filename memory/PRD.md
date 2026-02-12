@@ -1,39 +1,60 @@
-# FindMeAgent Logo - PRD
+# FindMeAgent.com.au - PRD
 
 ## Original Problem Statement
-Create a logo for findmeagent.com.au for Google Ads - Real Estate Agent Finder
+1. Create logos for findmeagent.com.au for Google Ads (Real Estate Agent Finder)
+2. Build a lead capture landing page with Google Analytics tracking
 
 ## User Requirements
-- **Business Type:** Real Estate Agent Finder
-- **Color Scheme:** Green tones
-- **Format:** Square logo (1:1 ratio)
-- **Style:** Professional / Corporate
+- Business: Real Estate Agent Finder (Australia)
+- Color: Green tones
+- Style: Professional / Corporate
+- Google Ads: Square (1200x1200) and Landscape (1200x300) logos
+- Lead capture: Name, Email, Phone, Suburb
 
-## What's Been Implemented (Jan 2026)
-- [x] Primary square logo with white background (500x500px)
-- [x] Green background branded version
-- [x] Minimal/modern version
-- [x] Preview page with all variations
-- [x] SVG format for scalability
+## What's Been Implemented (Feb 2025)
 
-## Files Created
-- `/app/logos/findmeagent-logo-square.svg` - Primary logo
+### Logos Created
+- `/app/logos/findmeagent-logo-square.svg` - Primary square logo (500x500)
+- `/app/logos/findmeagent-square-1200x1200.png` - Google Ads Square
+- `/app/logos/findmeagent-landscape-1200x300.png` - Google Ads Landscape (4:1)
 - `/app/logos/findmeagent-logo-green-bg.svg` - Green background version
 - `/app/logos/findmeagent-logo-minimal.svg` - Minimal version
-- `/app/logos/index.html` - Preview page
+
+### Landing Page
+- Lead capture form (Name, Email, Phone, Suburb, Service Type)
+- Google Analytics tracking (G-PRVQ6QP9F9)
+- Conversion event on form submission
+- Success message after submission
+- Mobile responsive design
+- Trust badges (Free Service, Verified Agents, Australia Wide)
+- "How It Works" section
+
+### Backend API
+- POST /api/leads - Create lead (with email validation)
+- GET /api/leads - Retrieve all leads
+
+## Tech Stack
+- Frontend: React + Tailwind CSS
+- Backend: FastAPI + MongoDB
+- Analytics: Google Analytics 4
 
 ## Color Palette
 - Primary: #2D8B4E (Forest Green)
 - Secondary: #4CAF50 (Material Green)
 - Accent: #1A5C33 (Dark Green)
-- Background: #FFFFFF (White)
 
-## Backlog (P1/P2)
-- [ ] P1: PNG exports in various sizes (180x180, 300x300, 1200x628)
-- [ ] P1: Favicon version (32x32, 16x16)
-- [ ] P2: Animated version for digital ads
-- [ ] P2: Additional color variations (blue version)
+## Test Results
+- Backend: 100% passed
+- Frontend: 100% passed
+- Email validation: Added regex pattern
 
-## Next Tasks
-1. Export to PNG for specific Google Ads requirements
-2. Create responsive display ad sizes
+## Backlog
+- [ ] P2: Admin dashboard to view leads
+- [ ] P2: Email notification when new lead submitted
+- [ ] P3: More landing page variations for A/B testing
+
+## Files
+- Logo files: `/app/logos/`
+- Frontend: `/app/frontend/src/App.js`
+- Backend: `/app/backend/server.py`
+- HTML with GA: `/app/frontend/public/index.html`
