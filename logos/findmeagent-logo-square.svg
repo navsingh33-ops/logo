@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D8B4E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A5C33;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FFFFFF"/>
+  
+  <!-- House Icon with Magnifying Glass -->
+  <g transform="translate(150, 80)">
+    <!-- House Body -->
+    <path d="M100 40 L180 100 L180 180 L20 180 L20 100 Z" fill="url(#greenGradient)" stroke="none"/>
+    <!-- House Roof -->
+    <path d="M100 10 L195 90 L185 100 L100 30 L15 100 L5 90 Z" fill="url(#lightGreen)"/>
+    <!-- Door -->
+    <rect x="80" y="120" width="40" height="60" fill="#FFFFFF" rx="3"/>
+    <!-- Window Left -->
+    <rect x="35" y="110" width="30" height="30" fill="#FFFFFF" rx="2"/>
+    <!-- Window Right -->
+    <rect x="135" y="110" width="30" height="30" fill="#FFFFFF" rx="2"/>
+    
+    <!-- Magnifying Glass -->
+    <circle cx="155" cy="55" r="28" fill="none" stroke="#1A5C33" stroke-width="8"/>
+    <line x1="175" y1="75" x2="200" y2="100" stroke="#1A5C33" stroke-width="8" stroke-linecap="round"/>
+    <!-- Person silhouette inside magnifying glass -->
+    <circle cx="155" cy="45" r="10" fill="#2D8B4E"/>
+    <path d="M145 70 Q155 58 165 70" fill="#2D8B4E"/>
+  </g>
+  
+  <!-- Text: findme -->
+  <text x="250" y="320" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#1A5C33" text-anchor="middle">
+    <tspan fill="#2D8B4E">find</tspan><tspan fill="#4CAF50">me</tspan>
+  </text>
+  
+  <!-- Text: agent -->
+  <text x="250" y="380" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#1A5C33" text-anchor="middle">agent</text>
+  
+  <!-- Tagline -->
+  <text x="250" y="430" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#666666" text-anchor="middle">Real Estate Agent Finder</text>
+  
+  <!-- .com.au -->
+  <text x="250" y="460" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#888888" text-anchor="middle">.com.au</text>
+</svg>
